@@ -1,0 +1,43 @@
+.my{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows:  8% 84% 8% ;
+    grid-template-columns: 8% 84% 8%;
+    grid-template-areas: "a b c" "c e e" "g h i" ;
+}
+header{
+grid-area: a;
+background-color: rgb(248, 188, 84);
+color: black;
+border: 0.02cm solid rgb(13, 7, 7);
+font-size: x-large;
+text-align: center;
+}
+#a{
+    grid-area: a;  
+}
+#b{
+    grid-area: b;  
+}
+#c{
+    grid-area: c;  
+}
+#d{
+    grid-area: d;  
+}
+#e{
+    grid-area: e;  
+}
+#f{
+    grid-area: f;  
+}
+#g{
+    grid-area: g;  
+}
+#h{
+    grid-area: h;
+      
+}
+#i{
+    grid-area: i;  
+}
